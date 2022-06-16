@@ -1,0 +1,80 @@
+body{
+    background-image:url("bg-intro-desktop.png");
+    background-size: contain;
+    background-color: hsl(0, 100%, 74%);
+    padding:16px;
+    font-family: Poppins;
+    color: white;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-row-gap: 2vw;
+    grid-column-gap: 2vw;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+.purple{
+    background-color:  hsl(248, 32%, 49%);
+    padding: 16px;
+    text-align: center;
+    border-radius: 6px;
+    width: 30vw;
+}
+.form{
+    width: 25vw;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.bgw{
+    background-color: white;
+    width: 30vw;
+    padding: 16px;
+    border-radius: 2vw;
+}
+.green{
+    background-color: hsl(154, 59%, 51%);
+    text-align: center;
+    padding: 16px;
+    color: white;
+    width: 28vw;
+    justify-content: baseline;
+   
+}
+.red{
+    color:hsl(0, 100%, 74%)
+}
+@media only screen and (max-width:600px) {
+    .grid{
+     display: block;
+    text-align: center;
+     font-size: 1vh;
+ }
+ body{
+     background-image: url("bg-intro-mobile.png");
+  
+ }
+ }
+ input:required:invalid{
+     background-image: url("icon.error.svg");
+     background-position: right;
+     background-repeat: no-repeat;
+ }
+ .black{
+     color: black;
+ }
+ .butn{
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     background-color: hsl(0, 100%, 74%);
+ }   
